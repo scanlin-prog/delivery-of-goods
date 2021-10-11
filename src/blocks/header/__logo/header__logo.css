@@ -1,0 +1,33 @@
+.header__logo {
+  font-weight: 900;
+  font-size: 1.625rem;
+  line-height: 1.46;
+  color: #37447e;
+  margin: 31px 0 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .header__logo {
+    font-size: 1.5rem;
+    margin: 20px 0 0;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .header__logo {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    padding: 0 15px 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 424px) {
+  .header__logo {
+    font-size: 1.3rem;
+    margin-top: 10px;
+    padding: 0 12px 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  }
+}
+

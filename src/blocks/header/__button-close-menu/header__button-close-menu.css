@@ -1,0 +1,8 @@
+.header__button-close-menu {
+  display: none;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 7px;
+  right: 7px;
+}
