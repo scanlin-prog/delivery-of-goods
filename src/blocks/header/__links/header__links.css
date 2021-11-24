@@ -5,6 +5,14 @@
   margin: 0 12px 0 0;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .header__links {
+    flex-direction: column;
+    margin: 0;
+    align-items: flex-start;
+  }
+}
+
 @media screen and (min-width: 425px) and (max-width: 767px) {
   .header__links {
     flex-direction: column;

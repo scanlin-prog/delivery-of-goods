@@ -1,0 +1,6 @@
+.table__body {
+  border-collapse: collapse;
+  border-spacing: 0;
+  display: none;
+  min-width: 1150px;
+}

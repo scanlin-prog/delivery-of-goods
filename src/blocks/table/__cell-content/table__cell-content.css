@@ -1,0 +1,7 @@
+.table__cell-content {
+  height: calc(100% - 30px);
+  background-color: rgba(196, 196, 196, 0.5);
+  margin: 0 0 10px;
+  padding: 10px;
+  text-align: center;
+}

@@ -1,0 +1,12 @@
+.table__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: background-color linear .5s;
+  width: 100%;
+}
+
+.table__header:hover {
+  background-color: rgba(133, 138, 150, 0.08);
+}

@@ -1,0 +1,25 @@
+@import url(./__header/table__header.css);
+@import url(./__title/table__title.css);
+@import url(./__title/_free/table__title_free.css);
+@import url(./__title/_completed/table__title_completed.css);
+@import url(./__button/table__button.css);
+@import url(./__button/_rotated/table__button_rotated.css);
+@import url(./__container/table__container.css);
+@import url(./__body/table__body.css);
+@import url(./__body/_visibility/table__body_visibility.css);
+@import url(./__row-title/table__row-title.css);
+@import url(./__column-title/table__column-title.css);
+@import url(./__row-content/table__row-content.css);
+@import url(./__cell/table__cell.css);
+@import url(./__cell-content/table__cell-content.css);
+@import url(./__cell-content/_flex/table__cell-content_flex.css);
+@import url(./__cell-content/_delay/table__cell-content_delay.css);
+@import url(./__cell-button/table__cell-button.css);
+@import url(./__cell-button/_theme_red/table__cell-button_theme_red.css);
+
+.table {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 50px;
+}

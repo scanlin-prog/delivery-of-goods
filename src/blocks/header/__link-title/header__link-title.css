@@ -23,6 +23,6 @@
 
 @media screen and (min-width: 320px) and (max-width: 424px) {
   .header__link-title {
-    margin: 9px 7px 0 6px;
+    margin: 9px 5px 0 4px;
   }
 }

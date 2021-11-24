@@ -1,0 +1,18 @@
+.table__cell {
+  height: 55px;
+  border-right: 1px solid #000000;
+  padding: 0;
+}
+
+.table__cell:last-of-type {
+  border-right: none;
+  width: 160px;
+}
+
+.table__cell:last-of-type > .table__cell-content {
+  border-radius: 0 10px 10px 0;
+}
+
+.table__cell:first-of-type > .table__cell-content {
+  border-radius: 10px 0 0 10px;
+}

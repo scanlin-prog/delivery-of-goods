@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Страница про доставки товаров" />
+  <meta name="keywords" content="доставка, водители, клиенты, товары" />
+  <meta name="author" content="Иван Ротарь" />
+  <meta name="author" content="Руслан Талыпов" />
+  <link rel="stylesheet" href="./src/pages/applications/applications.css" />
+  <title>Applications</title>
+</head>
+
+<body class="page">
+  <div class="overlay"></div>
+  <header class="header">
+    <h1 class="header__logo">Landie </br><span class="header__logo-span header_theme_red">для водителей</span></h1>
+    <nav class="header__menu">
+      <ul class="header__links">
+        <li><a href="#" class="header__link header_theme_red">Моё расписание</a></li>
+        <li><a href="#" class="header__link header_theme_red">Заявки</a></li>
+        <li><a href="#" class="header__link header_theme_red">Документы</a></li>
+        <li><a href="#" class="header__link header_theme_red">Помощь</a></li>
+        <li>
+          <a href="#" class="header__link header__user-link header_theme_red">
+            <img src="./src/images/account.svg" alt="Иконка_аккаунта" class="header__link-logo" />
+            <p class="header__link-title">Личный кабинет</p>
+          </a>
+        </li>
+      </ul>
+      <p class="header__number">7 900 000 33 42</p>
+      <p class="header__driver-text header_theme_red">Поддержка водителей </br> 8:00-24:00</p>
+    </nav>
+    <img src="./src/images/menu.svg" alt="" class="header__button-menu" />
+    <img src="./src/images/close.svg" alt="" class="header__button-close-menu" />
+  </header>
+  <main class="content">
+    <section class="tables">
+      <div class="table">
+        <div class="table__header">
+          <h3 class="table__title">Активные заявки</h3>
+          <button class="table__button"></button>
+        </div>
+        <div class="table__container">
+          <table class="table__body">
+            <tr class="table__row-title">
+              <th scope="col" class="table__column-title">#</th>
+              <th scope="col" class="table__column-title">Заказчик</th>
+              <th scope="col" class="table__column-title">Откуда</th>
+              <th scope="col" class="table__column-title">Куда</th>
+              <th scope="col" class="table__column-title">Вес (кг)</th>
+              <th scope="col" class="table__column-title">Дата отправки</th>
+              <th scope="col" class="table__column-title">Дата доставки</th>
+              <th scope="col" class="table__column-title">Стоимость (руб)</th>
+              <th scope="col" class="table__column-title">Действия</th>
+            </tr>
+            <tr class="table__row-content">
+              <td class="table__cell">
+                <p class="table__cell-content">25</p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content">supplier</p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content">г Москва, ул Санникова</p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content">Маркетплейс Петербургский
+                  Петербург, Малый проспект ВО</p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content">20,00</p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content">18 ноября 2021 г.</p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content">20 ноября 2021 г.</p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content">120 000,00</p>
+              </td>
+              <td class="table__cell">
+                <div class="table__cell-content table__cell-content_flex">
+                  <button class="table__cell-button">Подтвердить</button>
+                  <button class="table__cell-button table__cell-button_theme_red">Отказаться</button>
+                </div>
+              </td>
+            </tr>
+            <tr class="table__row-content">
+              <td class="table__cell">
+                <p class="table__cell-content"></p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content"></p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content"></p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content"></p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content"></p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content"></p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content"></p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content"></p>
+              </td>
+              <td class="table__cell">
+                <div class="table__cell-content table__cell-content_flex">
+                  <button class="table__cell-button">Подтвердить</button>
+                  <button class="table__cell-button table__cell-button_theme_red">Отказаться</button>
+                </div>
+              </td>
+            </tr>
+            <tr class="table__row-content">
+              <td class="table__cell">
+                <p class="table__cell-content table__cell-content_delay"></p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content table__cell-content_delay"></p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content table__cell-content_delay"></p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content table__cell-content_delay"></p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content table__cell-content_delay"></p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content table__cell-content_delay"></p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content table__cell-content_delay"></p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content table__cell-content_delay"></p>
+              </td>
+              <td class="table__cell">
+                <div class="table__cell-content table__cell-content_flex table__cell-content_delay">
+                  <button class="table__cell-button">Подтвердить</button>
+                  <button class="table__cell-button table__cell-button_theme_red">Отказаться</button>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="table">
+        <div class="table__header">
+          <h3 class="table__title table__title_free">Свободные заявки</h3>
+          <button class="table__button"></button>
+        </div>
+        <div class="table__container">
+          <table class="table__body">
+            <tr class="table__row-title">
+              <th scope="col" class="table__column-title">#</th>
+              <th scope="col" class="table__column-title">Заказчик</th>
+              <th scope="col" class="table__column-title">Откуда</th>
+              <th scope="col" class="table__column-title">Куда</th>
+              <th scope="col" class="table__column-title">Вес (кг)</th>
+              <th scope="col" class="table__column-title">Дата отправки</th>
+              <th scope="col" class="table__column-title">Дата доставки</th>
+              <th scope="col" class="table__column-title">Стоимость (руб)</th>
+              <th scope="col" class="table__column-title">Действия</th>
+            </tr>
+            <tr class="table__row-content">
+              <td class="table__cell">
+                <p class="table__cell-content">25</p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content">supplier</p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content">г Москва, ул Санникова</p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content">Маркетплейс Петербургский
+                  Петербург, Малый проспект ВО</p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content">20,00</p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content">18 ноября 2021 г.</p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content">20 ноября 2021 г.</p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content">120 000,00</p>
+              </td>
+              <td class="table__cell">
+                <div class="table__cell-content table__cell-content_flex">
+                  <button class="table__cell-button">Принять</button>
+                </div>
+              </td>
+            </tr>
+            <tr class="table__row-content">
+              <td class="table__cell">
+                <p class="table__cell-content"></p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content"></p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content"></p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content"></p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content"></p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content"></p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content"></p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content"></p>
+              </td>
+              <td class="table__cell">
+                <div class="table__cell-content table__cell-content_flex">
+                  <button class="table__cell-button">Принять</button>
+                </div>
+              </td>
+            </tr>
+            <tr class="table__row-content">
+              <td class="table__cell">
+                <p class="table__cell-content"></p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content"></p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content"></p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content"></p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content"></p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content"></p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content"></p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content"></p>
+              </td>
+              <td class="table__cell">
+                <div class="table__cell-content table__cell-content_flex">
+                  <button class="table__cell-button">Принять</button>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+      </div>
+      <div class="table">
+        <div class="table__header">
+          <h3 class="table__title table__title_completed">Завершенные заявки</h3>
+          <button class="table__button"></button>
+        </div>
+        <div class="table__container">
+          <table class="table__body">
+            <tr class="table__row-title">
+              <th scope="col" class="table__column-title">#</th>
+              <th scope="col" class="table__column-title">Заказчик</th>
+              <th scope="col" class="table__column-title">Откуда</th>
+              <th scope="col" class="table__column-title">Куда</th>
+              <th scope="col" class="table__column-title">Вес (кг)</th>
+              <th scope="col" class="table__column-title">Дата отправки</th>
+              <th scope="col" class="table__column-title">Дата доставки</th>
+              <th scope="col" class="table__column-title">Стоимость (руб)</th>
+              <th scope="col" class="table__column-title">Действия</th>
+            </tr>
+            <tr class="table__row-content">
+              <td class="table__cell">
+                <p class="table__cell-content">25</p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content">supplier</p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content">г Москва, ул Санникова</p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content">Маркетплейс Петербургский
+                  Петербург, Малый проспект ВО</p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content">20,00</p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content">18 ноября 2021 г.</p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content">20 ноября 2021 г.</p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content">120 000,00</p>
+              </td>
+              <td class="table__cell">
+                <div class="table__cell-content table__cell-content_flex">
+                </div>
+              </td>
+            </tr>
+            <tr class="table__row-content">
+              <td class="table__cell">
+                <p class="table__cell-content"></p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content"></p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content"></p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content"></p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content"></p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content"></p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content"></p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content"></p>
+              </td>
+              <td class="table__cell">
+                <div class="table__cell-content table__cell-content_flex">
+                </div>
+              </td>
+            </tr>
+            <tr class="table__row-content">
+              <td class="table__cell">
+                <p class="table__cell-content"></p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content"></p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content"></p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content"></p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content"></p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content"></p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content"></p>
+              </td>
+              <td class="table__cell">
+                <p class="table__cell-content"></p>
+              </td>
+              <td class="table__cell">
+                <div class="table__cell-content table__cell-content_flex">
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"></footer>
+
+  <script src="./src/pages/applications/applications.js"></script>
+</body>
+
+</html>

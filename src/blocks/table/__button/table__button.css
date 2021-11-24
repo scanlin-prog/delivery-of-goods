@@ -1,0 +1,11 @@
+.table__button {
+  background-image: url(../../../images/open_table.svg);
+  background-color: transparent;
+  background-position: center;
+  background-size: cover;
+  width: 30px;
+  height: 18px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}

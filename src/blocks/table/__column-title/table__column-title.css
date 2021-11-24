@@ -1,0 +1,15 @@
+.table__column-title {
+  font-weight: normal;
+  font-size: 1.25rem;
+  line-height: 1.2;
+  text-align: center;
+  color: #871717;
+  border-right: 1px solid #000000;
+  margin: 0;
+  padding: 0 10px;
+  padding-bottom: 30px;
+}
+
+.table__column-title:last-of-type {
+  border-right: none;
+}

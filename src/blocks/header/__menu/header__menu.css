@@ -3,6 +3,13 @@
   position: relative;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .header__menu {
+    display: none;
+    flex-direction: column;
+  }
+}
+
 @media screen and (min-width: 425px) and (max-width: 767px) {
   .header__menu {
     display: none;

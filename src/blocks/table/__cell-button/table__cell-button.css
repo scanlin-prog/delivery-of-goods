@@ -1,0 +1,16 @@
+.table__cell-button {
+  font-weight: normal;
+  font-size: 1.25rem;
+  line-height: 1.2;
+  text-align: center;
+  color: #000000;
+  background: rgba(10, 105, 8, 0.5);
+  border-radius: 10px;
+  border: 1px solid rgba(8, 36, 8, 0.5);
+  margin: 3px 0;
+  cursor: pointer;
+}
+
+.table__cell-button:hover {
+  background: rgba(202, 236, 199, 0.5);
+}
